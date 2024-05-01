@@ -1,0 +1,40 @@
+.section {
+   
+    display: flex;
+    justify-content: space-between;
+}
+
+article {
+    
+    display: flex;
+    flex-direction: row;
+
+}
+
+.content {
+    display: grid;
+    grid-template-columns: repeat(1);
+    gap: 20px; 
+}
+
+/*.content {
+    
+    display: flex;
+    flex-direction: column;
+}*/
+
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(1);
+    gap: 20px; 
+}
+
+.item {
+    padding: 20px;
+    text-align: center;
+}
