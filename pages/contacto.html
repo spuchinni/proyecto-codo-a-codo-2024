@@ -6,26 +6,151 @@
     <title>Contacto</title>
     <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="../styles.css/estilos.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <script src="https://kit.fontawesome.com/a10880f112.js" crossorigin="anonymous"></script>
 </head>
 <body>
-    <nav>
-        <img src="../img/logo.jpg" alt="logo" width="100px">
-        <a href="../index.html"> Home </a>
-        <a href="./quienes somos.html"> Quienes Somos </a>
-        <a href="./catalogo.html"> Catalogo </a>
 
-    </nav>
+  <nav>
+    <img src="../img/logo.jpg" alt="logo" width="100px">
+    <a href="../index.html"> Home </a>
+    <a href="./quienes somos.html"> Quienes Somos </a>
+    <a href="./catalogo.html"> Catalogo </a>
+  </nav>
 
-    <footer>
-        <div class="footer-icons">
-          <a href="#"><i class="fa-brands fa-whatsapp"></i></a>
-          <a href="#"><i class="fa-brands fa-instagram"></i></a>
-          <a href="#"><i class="fa-brands fa-facebook"></i></a>
-          <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+  <div class="row row-cols-1 row-cols-md-3 text-center">
+    <div class="col-md-4">
+      <div class="card mb-4 rounded-3 shadow-sm border-danger">
+        <div class="card-header py-3 text-white bg-danger border-danger">
+          <h4 class="my-0 fw-normal">TORTA DE UN PISO</h4>
+  
         </div>
-        <p class="footer-text"><h3> Hecho en Argentina año 2024 </p></h3> 
-      </footer>
+  
+        <div class="card-body">
+          <h3 class="card-title pricing-card-title"><b>$8000</b></h3>
+        </div>
+  
+      </div>
+    </div>
+  
+    <div class="col-md-4">
+      <div class="card mb-4 rounded-3 shadow-sm border-danger">
+        <div class="card-header py-3 text-white bg-danger border-danger">
+          <h4 class="my-0 fw-normal">TORTA DE DOS PISOS</h4>
+  
+        </div>
+  
+        <div class="card-body">
+          <h3 class="card-title pricing-card-title"><b>$15000</b></h3>
+        </div>
+  
+      </div>
+    </div>
+  
+    <div class="col-md-4">
+      
+      <div class="card mb-4 rounded-3 shadow-sm border-danger">
+        <div class="card-header py-3 text-white bg-danger border-danger">
+          <h4 class="my-0 fw-normal">TORTA DE TRES PISOS</h4>
     
+        </div>
+    
+        <div class="card-body">
+          <h3 class="card-title pricing-card-title"><b>$22000</b></h3>
+        </div>
+    
+      </div>
+     
+    </div>
+  </div>
+
+  <div class="select">
+    <div class="col-md-6">
+      <select class="form-select" aria-label="Default select example">
+        <option selected>sabor del bizcochuelo</option>
+        <option value="1">Zanahoria</option>
+        <option value="2">Vainilla</option>
+        <option value="3">Chocolate</option>
+        <option value="4">Uno y uno</option>
+
+      </select>
+    </div>
+
+    <div class="col-md-6">
+      <select class="form-select" aria-label="Default select example">
+        <option selected>sabor del relleno</option>
+        <option value="1">Dulce de Leche</option>
+        <option value="2">Crema Chantilly</option>
+        <option value="3">Crema Oreo</option>
+        <option value="4">Uno y uno</option>
+     
+      </select>
+    </div>
+
+  </div>
+
+  <div class="row gx-0">
+    <div class="col-md mb-3">
+      <div class="row">
+        <div class="col">
+          <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+            <label class="form-check-label" for="flexCheckDefault">
+              Otro sabor de bizcochuelo
+            </label>
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
+            <label class="form-check-label" for="flexCheckChecked">
+              Otro sabor de relleno
+            </label>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="row gx-0">
+    <div class="col-md mb-3">
+      <input type="text" class="form-control" placeholder="Nombre" aria-label="Nombre"
+      id="nombre" required>
+    </div>
+    <div class="col-md mb-3">
+      <input type="text" class="form-control" placeholder="Apellido" aria-label="Apellido"
+      id="apellido" required>
+    </div>
+  </div>
+
+  <div class="row gx-0">
+    <div class="col-md mb-3">
+      <input type="text" class="form-control" placeholder="Email" aria-label="Email"
+      id="Email" required>
+    </div>
+    <div class="col-md mb-3">
+      <input type="number" class="form-control" placeholder="Teléfono" aria-label="Teléfono"
+      id="Teléfono" required>
+    </div>
+  </div>
+
+  <div class="mb-3">
+    <label for="exampleFormControlTextarea1" class="form-label">Dejanos tu mensaje</label>
+    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+  </div>
+
+  <footer>
+    <div class="footer-icons">
+      <a href="#"><i class="fa-brands fa-whatsapp"></i></a>
+      <a href="#"><i class="fa-brands fa-instagram"></i></a>
+      <a href="#"><i class="fa-brands fa-facebook"></i></a>
+      <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+    </div>
+   
+    <p class="footer-text"><h3> Hecho en Argentina año 2024 </h3></p>
+
+  </footer>
 </body>
 </html>
