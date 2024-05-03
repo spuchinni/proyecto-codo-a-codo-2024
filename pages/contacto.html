@@ -21,7 +21,7 @@
   <div class="row row-cols-1 row-cols-md-3 text-center">
     <div class="col-md-4">
       <div class="card mb-4 rounded-3 shadow-sm border-danger">
-        <div class="card-header py-3 text-white bg-danger border-danger">
+        <div class="card-header py-3 text-white mariana">
           <h4 class="my-0 fw-normal">TORTA DE UN PISO</h4>
   
         </div>
@@ -35,7 +35,7 @@
   
     <div class="col-md-4">
       <div class="card mb-4 rounded-3 shadow-sm border-danger">
-        <div class="card-header py-3 text-white bg-danger border-danger">
+        <div class="card-header py-3 text-white mariana">
           <h4 class="my-0 fw-normal">TORTA DE DOS PISOS</h4>
   
         </div>
@@ -50,7 +50,7 @@
     <div class="col-md-4">
       
       <div class="card mb-4 rounded-3 shadow-sm border-danger">
-        <div class="card-header py-3 text-white bg-danger border-danger">
+        <div class="card-header py-3 text-white mariana">
           <h4 class="my-0 fw-normal">TORTA DE TRES PISOS</h4>
     
         </div>
@@ -94,7 +94,7 @@
       <div class="row">
         <div class="col">
           <div class="form-check">
-                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                    <input class="form-check-input" type="checkbox" value="" id="check1">
             <label class="form-check-label" for="flexCheckDefault">
               Otro sabor de bizcochuelo
             </label>
@@ -103,7 +103,7 @@
 
         <div class="col">
           <div class="form-check">
-            <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
+            <input class="form-check-input" type="checkbox" value="" id="check2">
             <label class="form-check-label" for="flexCheckChecked">
               Otro sabor de relleno
             </label>
@@ -113,6 +113,17 @@
     </div>
   </div>
 
+  <div class="row gx-0">
+    <div class="col-md mb-3">
+      <input type="text" class="form-control" placeholder="Escribi el sabor de bizcochuelo" aria-label="sabor1"
+      id="sabor1" required style="display: none;">
+    </div>
+  
+    <div class="col-md mb-3">
+      <input type="text" class="form-control" placeholder="Escribi el sabor del relleno" aria-label="sabor2"
+      id="sabor2" required style="display: none;">
+    </div>
+  </div>
 
   <div class="row gx-0">
     <div class="col-md mb-3">
@@ -123,9 +134,11 @@
       <input type="text" class="form-control" placeholder="Apellido" aria-label="Apellido"
       id="apellido" required>
     </div>
+
   </div>
 
   <div class="row gx-0">
+    
     <div class="col-md mb-3">
       <input type="text" class="form-control" placeholder="Email" aria-label="Email"
       id="Email" required>
@@ -152,5 +165,6 @@
     <p class="footer-text"><h3> Hecho en Argentina año 2024 </h3></p>
 
   </footer>
+  <script src="../javascript/contacto.js"> </script>
 </body>
 </html>
