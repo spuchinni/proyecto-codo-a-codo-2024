@@ -20,3 +20,25 @@ CHECK2.addEventListener("click",() =>{
     }
 })
 
+const TORTA1 = 8000;
+const TORTA2 = 15000;
+const TORTA3 = 22000;
+const PISO1 = TORTA1;
+const PISO2 = TORTA2;
+const PISO3 = TORTA3;
+
+const nombre = document.querySelector("#nombre");
+const apellido = document.querySelector("#apellido");
+const email = document.querySelector("#mail");
+const telefono = document.getElementById("telefono");
+const mensaje = document.querySelector("#mensaje");
+const borrar = document.querySelector("#btnBorrar");
+const resumen = document.querySelector("#btnResumen");
+let totalPago = document.querySelector("#totalPago");
+
+function calcularMonto() {
+
+}
+
+resumen.addEventListener("click", calcularMonto);
+
