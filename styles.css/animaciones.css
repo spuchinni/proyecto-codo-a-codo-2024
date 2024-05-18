@@ -1,0 +1,7 @@
+/* ANIMACION */
+@keyframes rebote {
+    0% {transform: scale(1);}
+    100% {transform: scale(1.2);}
+}
+
+a:hover {animation: rebote 1s; animation-fill-mode:both; animation-direction: alternate;}

@@ -12,6 +12,8 @@ CHECK1.addEventListener("click",() =>{
 
 const CHECK2 = document.getElementById("check2");
 const SABOR2 = document.getElementById("sabor2");
+const textoTotal = document.getElementById("precioTotal");
+
 CHECK2.addEventListener("click",() =>{
     if (CHECK2.checked==true){
         SABOR2.style.display="block";
@@ -36,9 +38,38 @@ const borrar = document.querySelector("#btnBorrar");
 const resumen = document.querySelector("#btnResumen");
 let totalPago = document.querySelector("#totalPago");
 
-function calcularMonto() {
+function validarEmail (valorEmail) {
 
 }
 
-resumen.addEventListener("click", calcularMonto);
+function calcularMonto() {
+var pisosPastel = document.getElementById("pisosID");
+var valorPastel = pisosPastel.value;
+var chequear = email.value
+var regex = /^[-\w.%+]{1,64}@(?:[A-Z0-9-]{1,63}\.){1,125}[A-Z]{2,63}$/i;
 
+if (!regex.test(chequear)) {
+    alert("¡email no valido!");
+} else {
+if (CHECK1.checked==true || CHECK2.checked==true) {
+        validarEmail(email);     
+        let mensaje = "Muchas gracias! Nos estaremos comunicando para enviarte tu presupuesto!";
+            alert(mensaje);
+} else {
+    switch (valorPastel) {
+        case "1":
+            textoTotal.innerHTML = TORTA1;
+            break;
+        case "2":
+            textoTotal.innerHTML = TORTA2;
+            break;
+        case "3":
+            textoTotal.innerHTML = TORTA3;
+            break;
+        default:
+            textoTotal.innerHTML = TORTA1;
+    }
+}
+}
+}
+resumen.addEventListener("click", calcularMonto);
