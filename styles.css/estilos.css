@@ -115,5 +115,47 @@ footer {
     margin-top: 10px; 
 }
 
+/*login*/
 
+.login-container {
+    text-align: center;
+    border: 1px solid hsl(308, 55%, 63%);
+    background-color: #f2abee;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 400px; /* Ajusta el ancho máximo del contenedor según tu diseño */
+    margin: 0 auto; /* Centra el contenedor horizontalmente */
+}
 
+.login-container h1 {
+    margin-bottom: 20px;
+}
+
+.login-container label,
+.login-container input {
+    display: block;
+    width: 100%;
+    margin-bottom: 10px; /* Espacio entre los elementos */
+}
+
+.login-container input[type="text"],
+.login-container input[type="password"] {
+    padding: 10px;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+    box-sizing: border-box; /* Incluye el padding y el borde en el ancho total */
+}
+
+.login-container input[type="submit"] {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #333;
+    color: #fff;
+    cursor: pointer;
+}
+
+.login-container input[type="submit"]:hover {
+    background-color: #555;
+}

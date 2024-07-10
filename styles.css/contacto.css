@@ -53,40 +53,8 @@ nav img {
     text-decoration-color: black;
 }
 
-footer {
-    background-color: antiquewhite;
-    border-radius: 20px;
-    display: flex; 
-    justify-content: space-between; 
-    align-items: center; 
-    padding: 10px 20px;
-}
-
-footer {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-.footer-icons {
-    display: flex; 
-    align-items: center; 
-    justify-content: space-between; 
-    width: 100%; 
-    font-size: 2rem; 
-    color: #007bff; 
-    margin-right: 10px; 
-}
-  
-.footer-text {
-   
-    text-align: center;
-    margin-top: 10px; 
-}
-
-.item {
-    padding: 20px;
-    text-align: center;
+a {
+    text-decoration: none; color: rgb(255, 32, 125);
 }
 
 
